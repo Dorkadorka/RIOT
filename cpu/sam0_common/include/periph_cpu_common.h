@@ -826,6 +826,7 @@ typedef enum {
     ADC_RES_10BIT = ADC_CTRLC_RESSEL_10BIT_Val, /**< ADC resolution: 10 bit */
     ADC_RES_12BIT = ADC_CTRLC_RESSEL_12BIT_Val, /**< ADC resolution: 12 bit */
 #endif
+    ADC_RES_16BIT_1SAMPL    = ( 0x0 << 2) | 0x1, /**< single 12 bit sample       */
     ADC_RES_16BIT_2SAMPL    = ( 0x1 << 2) | 0x1, /**< sum of 2 12 bit samples    */
     ADC_RES_16BIT_4SAMPL    = ( 0x2 << 2) | 0x1, /**< sum of 4 12 bit samples    */
     ADC_RES_16BIT_8SAMPL    = ( 0x3 << 2) | 0x1, /**< sum of 8 12 bit samples    */
